@@ -61,7 +61,7 @@ internal class Program
         Random random = new Random();
 
         playerOneDice = random.Next(1, 7);
-        Console.WriteLine(playerOneName + "rolled a " + playerOneDice)
+        Console.WriteLine(playerOneName + "rolled a " + playerOneDice);
     }
 // Benjamin's code ends here
 }
