@@ -21,7 +21,7 @@ internal class Program
         {
             playerOneName = Console.ReadLine().ToUpper();
 
-            if (!validPlayerOneName.Contains(playerOneName));
+            if (!validPlayerOneName.Contains(playerOneName))
             {
                 Console.WriteLine("That's not valid. Try again.");
             }
