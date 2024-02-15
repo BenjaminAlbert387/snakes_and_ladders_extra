@@ -7,8 +7,8 @@ internal class Program
         Console.WriteLine("Welcome to Snakes and Ladders: Extra!");
         Console.WriteLine("Press the Ready button when you are ready to play.");
 
-        char playerOneName = GetPlayerOneName();
-        char playerTwoName = GetPlayerTwoName();
+        string playerOneName = GetPlayerOneName();
+        string playerTwoName = GetPlayerTwoName();
     }
 
     public static string GetPlayerOneName()
