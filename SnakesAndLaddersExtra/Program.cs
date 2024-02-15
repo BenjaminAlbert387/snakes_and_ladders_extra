@@ -54,14 +54,14 @@ internal class Program
     }
 
 // Simulates a dice roll for Player 1
-    public static int GetPlayerOneDice(string playerOneName)
+    public static int GetPlayerOneDice()
     {
         int playerOneDice;
 
         Random random = new Random();
 
         playerOneDice = random.Next(1, 7);
-        Console.WriteLine(playerOneName + "rolled a " + playerOneDice);
+        Console.WriteLine("Player 1 rolled a " + playerOneDice);
 
         return playerOneDice;
     }
