@@ -1,4 +1,6 @@
-﻿internal class Program
+﻿//to run the code, type in dotnet run
+
+internal class Program
 {
     private static void Main(string[] args)
     {
@@ -10,7 +12,7 @@
 
     public static string GetPlayerOneName()
     {
-        Console.WriteLine("Select a letter for Player 1: A, B, C or D.")
+        Console.WriteLine("Select a letter for Player 1: A, B, C or D.");
 
         string[] validPlayerOneName = new [] {"A", "B", "C", "D"};
         string playerOneName;
@@ -25,7 +27,7 @@
             }
         }
         while (!validPlayerOneName.Contains(playerOneName));
-        return playerOneName
+        return playerOneName;
     }
 
 
