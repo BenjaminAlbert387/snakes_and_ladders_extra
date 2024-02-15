@@ -1,5 +1,6 @@
 ﻿//to run the code, type in dotnet run
 
+//Benjamin's code starts here
 internal class Program
 {
     private static void Main(string[] args)
@@ -50,7 +51,5 @@ internal class Program
         while (!validPlayerTwoName.Contains(playerTwoName));
         return playerTwoName;
     }
-
-
-
+// Benjamin's code ends here
 }
