@@ -3,7 +3,7 @@
 //Benjamin's code starts here
 internal class Program
 {
-    private static void Main(string[] args)
+    public static void Main(string[] args)
     {
         Console.WriteLine("Welcome to Snakes and Ladders: Extra!");
         Console.WriteLine("Press the Ready button when you are ready to play.");
@@ -62,6 +62,8 @@ internal class Program
 
         playerOneDice = random.Next(1, 7);
         Console.WriteLine(playerOneName + "rolled a " + playerOneDice);
+
+        return playerOneDice;
     }
 // Benjamin's code ends here
 }
