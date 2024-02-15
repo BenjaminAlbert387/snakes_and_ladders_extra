@@ -10,6 +10,7 @@ internal class Program
 
         string playerOneName = GetPlayerOneName();
         string playerTwoName = GetPlayerTwoName();
+        int playerOneDice = GetPlayerOneDice();
     }
 
     public static string GetPlayerOneName()
@@ -50,6 +51,17 @@ internal class Program
         }
         while (!validPlayerTwoName.Contains(playerTwoName));
         return playerTwoName;
+    }
+
+// Simulates a dice roll for Player 1
+    public static int GetPlayerOneDice(string playerOneName)
+    {
+        int playerOneDice;
+
+        Random random = new Random();
+
+        playerOneDice = random.Next(1, 7);
+        Console.WriteLine(playerOneName + "rolled a " + playerOneDice)
     }
 // Benjamin's code ends here
 }
