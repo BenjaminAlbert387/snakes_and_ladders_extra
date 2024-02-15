@@ -30,6 +30,26 @@ internal class Program
         return playerOneName;
     }
 
+    public static string GetPlayerTwoName()
+    {
+        Console.WriteLine("Select a letter for Player 2: E, F, G or H.");
+
+        string[] validPlayerTwoName = new [] {"E", "F", "G", "H"};
+        string playerTwoName;
+
+        do
+        {
+            playerTwoName = Console.ReadLine().ToUpper();
+
+            if (!validPlayerTwoName.Contains(playerTwoName))
+            {
+                Console.WriteLine("That's not valid. Try again.");
+            }
+        }
+        while (!validPlayerTwoName.Contains(playerTwoName));
+        return playerTwoName;
+    }
+
 
 
 }
