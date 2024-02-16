@@ -13,6 +13,7 @@ internal class Program
         string playerOneName = GetPlayerOneName();
         string playerTwoName = GetPlayerTwoName();
         int playerOneDice = GetPlayerOneDice();
+        int playerTwoDice = GetPlayerTwoDice();
     }
 
     public static string GetPlayerOneName()
@@ -66,6 +67,19 @@ internal class Program
         Console.WriteLine("Player 1 rolled a " + playerOneDice);
 
         return playerOneDice;
+    }
+
+// Simulates a dice roll for Player 2
+    public static int GetPlayerTwoDice()
+    {
+        int playerTwoDice;
+
+        Random random = new Random();
+
+        playerTwoDice = random.Next(1, 7);
+        Console.WriteLine("Player 2 rolled a " + playerTwoDice);
+
+        return playerTwoDice;
     }
 // Benjamin's code ends here
 }
