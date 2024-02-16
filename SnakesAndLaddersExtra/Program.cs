@@ -1,4 +1,6 @@
-﻿//to run the code, type in dotnet run
+﻿// to run the code in terminal:
+// type in cd SnakesAndLaddersExtra
+// type in dotnet run
 
 //Benjamin's code starts here
 internal class Program
