@@ -1,0 +1,14 @@
+C:\Users\benja\OneDrive - Canterbury Christ Church University\Visual Studio\GraphicsTesting\bin\Debug\net8.0-windows\GraphicsTesting.exe
+C:\Users\benja\OneDrive - Canterbury Christ Church University\Visual Studio\GraphicsTesting\bin\Debug\net8.0-windows\GraphicsTesting.deps.json
+C:\Users\benja\OneDrive - Canterbury Christ Church University\Visual Studio\GraphicsTesting\bin\Debug\net8.0-windows\GraphicsTesting.runtimeconfig.json
+C:\Users\benja\OneDrive - Canterbury Christ Church University\Visual Studio\GraphicsTesting\bin\Debug\net8.0-windows\GraphicsTesting.dll
+C:\Users\benja\OneDrive - Canterbury Christ Church University\Visual Studio\GraphicsTesting\bin\Debug\net8.0-windows\GraphicsTesting.pdb
+C:\Users\benja\OneDrive - Canterbury Christ Church University\Visual Studio\GraphicsTesting\obj\Debug\net8.0-windows\GraphicsTesting.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\benja\OneDrive - Canterbury Christ Church University\Visual Studio\GraphicsTesting\obj\Debug\net8.0-windows\GraphicsTesting.AssemblyInfoInputs.cache
+C:\Users\benja\OneDrive - Canterbury Christ Church University\Visual Studio\GraphicsTesting\obj\Debug\net8.0-windows\GraphicsTesting.AssemblyInfo.cs
+C:\Users\benja\OneDrive - Canterbury Christ Church University\Visual Studio\GraphicsTesting\obj\Debug\net8.0-windows\GraphicsTesting.csproj.CoreCompileInputs.cache
+C:\Users\benja\OneDrive - Canterbury Christ Church University\Visual Studio\GraphicsTesting\obj\Debug\net8.0-windows\GraphicsTesting.dll
+C:\Users\benja\OneDrive - Canterbury Christ Church University\Visual Studio\GraphicsTesting\obj\Debug\net8.0-windows\refint\GraphicsTesting.dll
+C:\Users\benja\OneDrive - Canterbury Christ Church University\Visual Studio\GraphicsTesting\obj\Debug\net8.0-windows\GraphicsTesting.pdb
+C:\Users\benja\OneDrive - Canterbury Christ Church University\Visual Studio\GraphicsTesting\obj\Debug\net8.0-windows\GraphicsTesting.genruntimeconfig.cache
+C:\Users\benja\OneDrive - Canterbury Christ Church University\Visual Studio\GraphicsTesting\obj\Debug\net8.0-windows\ref\GraphicsTesting.dll
