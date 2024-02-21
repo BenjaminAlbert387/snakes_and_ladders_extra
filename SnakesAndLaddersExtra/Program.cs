@@ -13,9 +13,7 @@ internal class Program
         string playerOneName = GetPlayerOneName();
         string playerTwoName = GetPlayerTwoName();
         int playerOneDice = GetPlayerOneDice();
-        Thread.Sleep(3000);
         int playerTwoDice = GetPlayerTwoDice();
-        Thread.Sleep(3000);
     }
 
     public static string GetPlayerOneName()
@@ -61,6 +59,10 @@ internal class Program
 // Simulates a dice roll for Player 1
     public static int GetPlayerOneDice()
     {
+        Console.WriteLine("Rolling dice...");
+
+        Thread.Sleep(3000);
+
         int playerOneDice;
 
         Random random = new Random();
@@ -74,6 +76,10 @@ internal class Program
 // Simulates a dice roll for Player 2
     public static int GetPlayerTwoDice()
     {
+        Console.WriteLine("Rolling dice...");
+
+        Thread.Sleep(3000);
+
         int playerTwoDice;
 
         Random random = new Random();
