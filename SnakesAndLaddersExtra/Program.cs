@@ -13,7 +13,9 @@ internal class Program
         string playerOneName = GetPlayerOneName();
         string playerTwoName = GetPlayerTwoName();
         int playerOneDice = GetPlayerOneDice();
+        Thread.Sleep(3000);
         int playerTwoDice = GetPlayerTwoDice();
+        Thread.Sleep(3000);
     }
 
     public static string GetPlayerOneName()
