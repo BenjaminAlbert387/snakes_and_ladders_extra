@@ -21,9 +21,9 @@ class SnakesAndLaddersExtra
 
             Thread.Sleep(1000);
 
-            Random random2 = new Random();
+            Random p3dice = new Random();
 
-            playerThreeDice = random.Next(1, 7);
+            playerThreeDice = p3dice.Next(1, 7);
             Console.WriteLine("Player 3 rolled a " + playerThreeDice);
 
             position3 += playerThreeDice;
@@ -40,9 +40,9 @@ class SnakesAndLaddersExtra
 
             Thread.Sleep(1000);
 
-            Random random = new Random();
+            Random p4dice = new Random();
 
-            playerFourDice = random.Next(1, 7);
+            playerFourDice = p4dice.Next(1, 7);
             Console.WriteLine("Player 4 rolled a " + playerFourDice);
 
             position4 += playerFourDice;
