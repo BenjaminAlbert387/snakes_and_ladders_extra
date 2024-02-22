@@ -5,6 +5,8 @@
 //Benjamin's code starts here
 internal class Program
 {
+    const int P1_POSITION = 0;
+    const int P2_POSITION = 0;
     public static void Main(string[] args)
     {
         Console.WriteLine("Welcome to Snakes and Ladders: Extra!");
@@ -61,7 +63,6 @@ internal class Program
 // Simulates a dice roll for Player 1
     public static int GetPlayerOneDice()
     {
-        const int P1_POSITION = 0;
         int p1_position = P1_POSITION;
 
         Console.WriteLine($"Current postition: {p1_position}");
@@ -87,7 +88,6 @@ internal class Program
 // Simulates a dice roll for Player 2
     public static int GetPlayerTwoDice()
     {
-        const int P2_POSITION = 0;
         int p2_position = P2_POSITION;
 
         Console.WriteLine($"Current postition: {p2_position}");
