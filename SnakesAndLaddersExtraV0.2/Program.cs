@@ -1,7 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
-
-using System;
+﻿using System;
 class SnakesAndLaddersExtra
 {
     static void Main(string[] args)
@@ -22,9 +19,9 @@ class SnakesAndLaddersExtra
 
             int playerThreeDice;
 
-            Thread.Sleep(3000);
+            Thread.Sleep(1000);
 
-            Random random = new Random();
+            Random random2 = new Random();
 
             playerThreeDice = random.Next(1, 7);
             Console.WriteLine("Player 3 rolled a " + playerThreeDice);
@@ -41,7 +38,7 @@ class SnakesAndLaddersExtra
 
             int playerFourDice;
 
-            Thread.Sleep(3000);
+            Thread.Sleep(1000);
 
             Random random = new Random();
 
@@ -53,6 +50,5 @@ class SnakesAndLaddersExtra
             Console.WriteLine($"Current postition: {position4}");
 
         }
-
     }
 }

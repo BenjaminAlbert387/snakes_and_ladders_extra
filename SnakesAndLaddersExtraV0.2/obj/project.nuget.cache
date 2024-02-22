@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oM3OoIg5agwWrtR4v1yeVDLzamJ23YPgrb7rPHEpAABwP/LkEjwfEU9oXTNX9vCpCBW1YLy5MejDqcl0EKl/ng==",
+  "dgSpecHash": "14adu95aHwky7T7QSMF4VYCFRS8/OoqRzd/AR12zPzBwbpOXNaR2aqmROEfQafrmS18j8TymgErPT7V6ofYNcw==",
   "success": true,
-  "projectFilePath": "/workspaces/snakes_and_ladders_extra/snakes_and_ladders_extra.csproj",
+  "projectFilePath": "/workspaces/snakes_and_ladders_extra/SnakesAndLaddersExtraV0.2/snakes_and_ladders_extra.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

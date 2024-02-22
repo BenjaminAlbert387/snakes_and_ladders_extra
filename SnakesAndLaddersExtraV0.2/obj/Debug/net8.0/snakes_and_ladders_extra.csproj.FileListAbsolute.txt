@@ -1,0 +1,5 @@
+/workspaces/snakes_and_ladders_extra/SnakesAndLaddersExtraV0.2/obj/Debug/net8.0/snakes_and_ladders_extra.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/snakes_and_ladders_extra/SnakesAndLaddersExtraV0.2/obj/Debug/net8.0/snakes_and_ladders_extra.AssemblyInfoInputs.cache
+/workspaces/snakes_and_ladders_extra/SnakesAndLaddersExtraV0.2/obj/Debug/net8.0/snakes_and_ladders_extra.AssemblyInfo.cs
+/workspaces/snakes_and_ladders_extra/SnakesAndLaddersExtraV0.2/obj/Debug/net8.0/snakes_and_ladders_extra.csproj.CoreCompileInputs.cache
+/workspaces/snakes_and_ladders_extra/SnakesAndLaddersExtraV0.2/obj/Debug/net8.0/snakes_and_ladders_extra.sourcelink.json

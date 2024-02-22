@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/workspaces/snakes_and_ladders_extra/snakes_and_ladders_extra.csproj": {}
+    "/workspaces/snakes_and_ladders_extra/SnakesAndLaddersExtraV0.2/snakes_and_ladders_extra.csproj": {}
   },
   "projects": {
-    "/workspaces/snakes_and_ladders_extra/snakes_and_ladders_extra.csproj": {
+    "/workspaces/snakes_and_ladders_extra/SnakesAndLaddersExtraV0.2/snakes_and_ladders_extra.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/workspaces/snakes_and_ladders_extra/snakes_and_ladders_extra.csproj",
+        "projectUniqueName": "/workspaces/snakes_and_ladders_extra/SnakesAndLaddersExtraV0.2/snakes_and_ladders_extra.csproj",
         "projectName": "snakes_and_ladders_extra",
-        "projectPath": "/workspaces/snakes_and_ladders_extra/snakes_and_ladders_extra.csproj",
+        "projectPath": "/workspaces/snakes_and_ladders_extra/SnakesAndLaddersExtraV0.2/snakes_and_ladders_extra.csproj",
         "packagesPath": "/home/codespace/.nuget/packages/",
-        "outputPath": "/workspaces/snakes_and_ladders_extra/obj/",
+        "outputPath": "/workspaces/snakes_and_ladders_extra/SnakesAndLaddersExtraV0.2/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/codespace/.nuget/NuGet/NuGet.Config"
