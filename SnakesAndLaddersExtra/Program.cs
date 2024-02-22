@@ -14,6 +14,8 @@ internal class Program
         string playerTwoName = GetPlayerTwoName();
         int playerOneDice = GetPlayerOneDice();
         int playerTwoDice = GetPlayerTwoDice();
+        GetPlayerOneDice();
+        GetPlayerTwoDice();
     }
 
     public static string GetPlayerOneName()
@@ -77,7 +79,7 @@ internal class Program
 
         p1_position += playerOneDice;
 
-        Console.WriteLine($"Current postition: £{p1_position}");
+        Console.WriteLine($"Current postition: {p1_position}");
 
         return playerOneDice;
     }
@@ -85,6 +87,11 @@ internal class Program
 // Simulates a dice roll for Player 2
     public static int GetPlayerTwoDice()
     {
+        const int P2_POSITION = 0;
+        int p2_position = P2_POSITION;
+
+        Console.WriteLine($"Current postition: {p2_position}");
+
         Console.WriteLine("Rolling dice...");
 
         Thread.Sleep(3000);
@@ -95,6 +102,10 @@ internal class Program
 
         playerTwoDice = random.Next(1, 7);
         Console.WriteLine("Player 2 rolled a " + playerTwoDice);
+
+        p2_position += playerTwoDice;
+
+        Console.WriteLine($"Current postition: {p2_position}");
 
         return playerTwoDice;
     }
