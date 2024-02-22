@@ -62,7 +62,7 @@ internal class Program
         const int P1_POSITION = 0;
         int p1_position = P1_POSITION;
 
-        Console.WriteLine($"Current postition: £{p1_position}");
+        Console.WriteLine($"Current postition: {p1_position}");
 
         Console.WriteLine("Rolling dice...");
 
