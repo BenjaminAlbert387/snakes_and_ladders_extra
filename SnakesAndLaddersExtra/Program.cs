@@ -5,13 +5,13 @@
 //Benjamin's code starts here
 internal class Program
 {
-    const int P1_POSITION = 0;
-    const int P2_POSITION = 0;
     public static void Main(string[] args)
     {
+
         Console.WriteLine("Welcome to Snakes and Ladders: Extra!");
         Console.WriteLine("Press the Ready button when you are ready to play.");
-
+        
+    
         string playerOneName = GetPlayerOneName();
         string playerTwoName = GetPlayerTwoName();
         int playerOneDice = GetPlayerOneDice();
@@ -63,8 +63,8 @@ internal class Program
 // Simulates a dice roll for Player 1
     public static int GetPlayerOneDice()
     {
-        int p1_position = P1_POSITION;
-
+        int p1_position = 0;
+        
         Console.WriteLine($"Current postition: {p1_position}");
 
         Console.WriteLine("Rolling dice...");
@@ -88,6 +88,8 @@ internal class Program
 // Simulates a dice roll for Player 2
     public static int GetPlayerTwoDice()
     {
+        int P2_POSITION = 0;
+
         int p2_position = P2_POSITION;
 
         Console.WriteLine($"Current postition: {p2_position}");
@@ -106,6 +108,8 @@ internal class Program
         p2_position += playerTwoDice;
 
         Console.WriteLine($"Current postition: {p2_position}");
+
+        p2_position = P2_POSITION;
 
         return playerTwoDice;
     }
