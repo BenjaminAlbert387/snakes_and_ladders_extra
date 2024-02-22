@@ -17,18 +17,37 @@ class SnakesAndLaddersExtra
 
             Console.WriteLine("Rolling dice...");
 
-        int playerThreeDice;
+            int playerThreeDice;
 
-        Thread.Sleep(3000);
+            Thread.Sleep(3000);
 
-        Random random = new Random();
+            Random random = new Random();
 
-        playerThreeDice = random.Next(1, 7);
-        Console.WriteLine("Player 1 rolled a " + playerThreeDice);
+            playerThreeDice = random.Next(1, 7);
+            Console.WriteLine("Player 3 rolled a " + playerThreeDice);
 
-        p1_position += playerOneDice;
+            position3 += playerThreeDice;
 
-        Console.WriteLine($"Current postition: {position3}");
+            //***//
+
+            Console.WriteLine($"Current postition: {position4}");
+
+            Console.WriteLine($"\nCurrent position of Player 4: {position4}");
+
+            Console.WriteLine("Rolling dice...");
+
+            int playerFourDice;
+
+            Thread.Sleep(3000);
+
+            Random random = new Random();
+
+            playerFourDice = random.Next(1, 7);
+            Console.WriteLine("Player 4 rolled a " + playerFourDice);
+
+            position4 += playerFourDice;
+
+            Console.WriteLine($"Current postition: {position4}");
 
         }
 
