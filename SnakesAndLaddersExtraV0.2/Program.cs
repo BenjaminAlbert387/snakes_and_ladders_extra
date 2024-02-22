@@ -11,7 +11,7 @@ class SnakesAndLaddersExtra
 
         Console.WriteLine("Welcome to Snakes and Ladders v0.1");
 
-        while (position3 <= 50 || position4 <= 50);
+        while (position3 >= 50 || position4 >= 50);
         {
             Console.WriteLine($"\nCurrent position of Player 3: {position3}");
 

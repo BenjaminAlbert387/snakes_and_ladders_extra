@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "snakes_and_ladders_extra/1.0.0": {
+        "runtime": {
+          "snakes_and_ladders_extra.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "snakes_and_ladders_extra/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

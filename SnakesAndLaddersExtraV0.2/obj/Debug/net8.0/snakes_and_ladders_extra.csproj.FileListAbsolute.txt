@@ -3,3 +3,13 @@
 /workspaces/snakes_and_ladders_extra/SnakesAndLaddersExtraV0.2/obj/Debug/net8.0/snakes_and_ladders_extra.AssemblyInfo.cs
 /workspaces/snakes_and_ladders_extra/SnakesAndLaddersExtraV0.2/obj/Debug/net8.0/snakes_and_ladders_extra.csproj.CoreCompileInputs.cache
 /workspaces/snakes_and_ladders_extra/SnakesAndLaddersExtraV0.2/obj/Debug/net8.0/snakes_and_ladders_extra.sourcelink.json
+/workspaces/snakes_and_ladders_extra/SnakesAndLaddersExtraV0.2/bin/Debug/net8.0/snakes_and_ladders_extra
+/workspaces/snakes_and_ladders_extra/SnakesAndLaddersExtraV0.2/bin/Debug/net8.0/snakes_and_ladders_extra.deps.json
+/workspaces/snakes_and_ladders_extra/SnakesAndLaddersExtraV0.2/bin/Debug/net8.0/snakes_and_ladders_extra.runtimeconfig.json
+/workspaces/snakes_and_ladders_extra/SnakesAndLaddersExtraV0.2/bin/Debug/net8.0/snakes_and_ladders_extra.dll
+/workspaces/snakes_and_ladders_extra/SnakesAndLaddersExtraV0.2/bin/Debug/net8.0/snakes_and_ladders_extra.pdb
+/workspaces/snakes_and_ladders_extra/SnakesAndLaddersExtraV0.2/obj/Debug/net8.0/snakes_and_ladders_extra.dll
+/workspaces/snakes_and_ladders_extra/SnakesAndLaddersExtraV0.2/obj/Debug/net8.0/refint/snakes_and_ladders_extra.dll
+/workspaces/snakes_and_ladders_extra/SnakesAndLaddersExtraV0.2/obj/Debug/net8.0/snakes_and_ladders_extra.pdb
+/workspaces/snakes_and_ladders_extra/SnakesAndLaddersExtraV0.2/obj/Debug/net8.0/snakes_and_ladders_extra.genruntimeconfig.cache
+/workspaces/snakes_and_ladders_extra/SnakesAndLaddersExtraV0.2/obj/Debug/net8.0/ref/snakes_and_ladders_extra.dll
