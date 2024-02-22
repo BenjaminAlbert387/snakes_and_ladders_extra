@@ -64,7 +64,7 @@ internal class Program
     public static int GetPlayerOneDice()
     {
         int p1_position = 0;
-        
+
         Console.WriteLine($"Current postition: {p1_position}");
 
         Console.WriteLine("Rolling dice...");
