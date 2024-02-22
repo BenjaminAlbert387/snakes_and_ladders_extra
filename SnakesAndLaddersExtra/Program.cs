@@ -59,6 +59,11 @@ internal class Program
 // Simulates a dice roll for Player 1
     public static int GetPlayerOneDice()
     {
+        const int P1_POSITION = 0;
+        int p1_position = P1_POSITION;
+
+        Console.WriteLine($"Current postition: £{p1_position}");
+
         Console.WriteLine("Rolling dice...");
 
         Thread.Sleep(3000);
@@ -69,6 +74,10 @@ internal class Program
 
         playerOneDice = random.Next(1, 7);
         Console.WriteLine("Player 1 rolled a " + playerOneDice);
+
+        p1_position += playerOneDice;
+
+        Console.WriteLine($"Current postition: £{p1_position}");
 
         return playerOneDice;
     }
@@ -90,6 +99,5 @@ internal class Program
         return playerTwoDice;
     }
 
-    
 // Benjamin's code ends here
 }
