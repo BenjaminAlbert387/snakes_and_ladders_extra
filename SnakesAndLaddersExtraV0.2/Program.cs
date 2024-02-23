@@ -19,18 +19,6 @@ class SnakesAndLaddersExtra
 
         while (position3 <= 50 && position4 <= 50)
         {
-            if (position3 >= 50)
-            {
-                Console.WriteLine("\nPlayer 3 wins!");
-                break;
-            }
-
-            if (position4 >= 50)
-            {
-                Console.WriteLine("\nPlayer 4 wins!");
-                break;
-            }
-
             Console.WriteLine("\nPress Enter to roll dice. Type 'Q' to quit. ");
             if (Console.ReadLine().ToUpper() == "Q")
                 break;
@@ -48,6 +36,12 @@ class SnakesAndLaddersExtra
 
             Console.WriteLine($"New postition of Player 3: {position3}");
 
+            if (position3 >= 50)
+            {
+                Console.WriteLine("\nPlayer 3 wins!");
+                break;
+            }
+
             /**/
             Console.WriteLine($"\nCurrent position of Player 4: {position4}");
             Console.WriteLine("Rolling dice...");
@@ -61,6 +55,12 @@ class SnakesAndLaddersExtra
             position4 += playerFourDice;
 
             Console.WriteLine($"New postition of Player 4: {position4}");
+
+             if (position4 >= 50)
+            {
+                Console.WriteLine("\nPlayer 4 wins!");
+                break;
+            }
         }
     }
 }
