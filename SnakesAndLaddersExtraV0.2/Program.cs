@@ -1,4 +1,10 @@
-﻿using System;
+﻿// to run the code in terminal:
+// type in cd SnakesAndLaddersExtraV0.2
+// type in dotnet run
+
+//Benjamin's code starts here
+
+using System;
 class SnakesAndLaddersExtra
 {
     static void Main(string[] args)
@@ -58,3 +64,4 @@ class SnakesAndLaddersExtra
         }
     }
 }
+// and ends here
