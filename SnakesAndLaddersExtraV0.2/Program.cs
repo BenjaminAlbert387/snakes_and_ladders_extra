@@ -14,8 +14,8 @@ class SnakesAndLaddersExtra
         while (position3 <= 50 || position4 <= 50);
         {
             Console.WriteLine("\nPress Enter to play (or 'Q' to quit):");
-            if (Console.ReadLine().ToUpper() == "Q")
-                break;
+            //if (Console.ReadLine().ToUpper() == "Q")
+                //break;
 
             Console.WriteLine($"\nCurrent position of Player 3: {position3}");
             Console.WriteLine("Rolling dice...");
