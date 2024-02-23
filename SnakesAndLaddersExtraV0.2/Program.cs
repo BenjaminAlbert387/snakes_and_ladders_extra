@@ -3,24 +3,36 @@ class SnakesAndLaddersExtra
 {
     static void Main(string[] args)
     {
-        int player3position = 0;
-        int player4position = 0;
+        const int player3position = 0;
+        const int player4position = 0;
 
         int position3 = player3position;
         int position4 = player4position;
 
-        Console.WriteLine("Welcome to Snakes and Ladders v0.1");
+        Console.WriteLine("Welcome to Snakes and Ladders v0.2");
 
-        while (position3 <= 50 || position4 <= 50);
+        while (position3 <= 50 && position4 <= 50)
         {
-            Console.WriteLine("\nPress Enter to play (or 'Q' to quit):");
-            //if (Console.ReadLine().ToUpper() == "Q")
-                //break;
+            if (position3 >= 50)
+            {
+                Console.WriteLine("\nPlayer 3 wins!");
+                break;
+            }
+
+            if (position4 >= 50)
+            {
+                Console.WriteLine("\nPlayer 4 wins!");
+                break;
+            }
+
+            Console.WriteLine("\nPress Enter to roll dice. Type 'Q' to quit. ");
+            if (Console.ReadLine().ToUpper() == "Q")
+                break;
 
             Console.WriteLine($"\nCurrent position of Player 3: {position3}");
             Console.WriteLine("Rolling dice...");
             int playerThreeDice;
-            Thread.Sleep(1000);
+            Thread.Sleep(100);
 
             Random p3dice = new Random();
             playerThreeDice = p3dice.Next(1, 7);
@@ -34,7 +46,7 @@ class SnakesAndLaddersExtra
             Console.WriteLine($"\nCurrent position of Player 4: {position4}");
             Console.WriteLine("Rolling dice...");
             int playerFourDice;
-            Thread.Sleep(1000);
+            Thread.Sleep(100);
 
             Random p4dice = new Random();
             playerFourDice = p4dice.Next(1, 7);
@@ -44,6 +56,5 @@ class SnakesAndLaddersExtra
 
             Console.WriteLine($"New postition of Player 4: {position4}");
         }
-        Console.WriteLine("\nGame over! Thanks for playing!");
     }
 }
