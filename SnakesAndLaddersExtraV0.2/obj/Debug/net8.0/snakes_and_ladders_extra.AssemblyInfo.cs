@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("snakes_and_ladders_extra")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+279376589d84b9706ef8ff634870d581a034a1bd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f0543b8f7b7e65b56f00abae226436ef238d5a14")]
 [assembly: System.Reflection.AssemblyProductAttribute("snakes_and_ladders_extra")]
 [assembly: System.Reflection.AssemblyTitleAttribute("snakes_and_ladders_extra")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
